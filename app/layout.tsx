@@ -5,6 +5,10 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "OpenScholarFinder – Discover Scholarships & Funded Positions",
   description: "Open-source scholarship aggregator for Bachelor's, Master's, and PhD positions worldwide. Find fully funded opportunities from 60+ trusted sources.",
+  icons: {
+    icon: "/OpenScholarFinder/favicon.png",
+    apple: "/OpenScholarFinder/favicon.png",
+  },
 };
 
 export default function RootLayout({

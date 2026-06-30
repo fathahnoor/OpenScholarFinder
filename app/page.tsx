@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import {
   searchEntries,
@@ -29,9 +29,9 @@ function StatusBadge({ status }: { status: string }) {
 
 function LevelBadge({ level }: { level: string }) {
   const labels: Record<string, string> = {
-    BACHELOR: "S1",
-    MASTER: "S2",
-    PHD: "S3",
+    BACHELOR: "Bachelor",
+    MASTER: "Master",
+    PHD: "Doctorate",
   };
   const colors: Record<string, string> = {
     BACHELOR: "bg-blue-100 text-blue-700",
@@ -152,6 +152,11 @@ export default function HomePage() {
   const [fullyFunded, setFullyFunded] = useState(false);
   const [indonesiaFriendly, setIndonesiaFriendly] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(12);
+
+  useEffect(() => {
+    setVisibleCount(12);
+  }, [query, level, fundingType, country, field, fullyFunded, indonesiaFriendly]);
 
   const results = useMemo(() => {
     return searchEntries({
@@ -166,6 +171,9 @@ export default function HomePage() {
     });
   }, [query, level, fundingType, country, field, fullyFunded, indonesiaFriendly]);
 
+  const visibleResults = results.slice(0, visibleCount);
+  const hasMore = visibleCount < results.length;
+
   const activeFilterCount = [level, fundingType, country, field, fullyFunded, indonesiaFriendly].filter(Boolean).length;
 
   const clearFilters = () => {
@@ -176,6 +184,7 @@ export default function HomePage() {
     setField("");
     setFullyFunded(false);
     setIndonesiaFriendly(false);
+    setVisibleCount(12);
   };
 
   return (
@@ -288,7 +297,7 @@ export default function HomePage() {
                   <option value="">All Levels</option>
                   {LEVELS.map((l) => (
                     <option key={l} value={l}>
-                      {l === "BACHELOR" ? "Bachelor (S1)" : l === "MASTER" ? "Master (S2)" : "PhD (S3)"}
+                      {l === "BACHELOR" ? "Bachelor" : l === "MASTER" ? "Master" : "Doctorate"}
                     </option>
                   ))}
                 </select>
@@ -361,13 +370,38 @@ export default function HomePage() {
         {/* Results Grid */}
         <div className="pb-16">
           {results.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {results.map((entry, i) => (
-                <div key={entry.id} className="animate-fadeIn" style={{ animationDelay: `${i * 50}ms` }}>
-                  <EntryCard entry={entry} />
+            <>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {visibleResults.map((entry, i) => (
+                  <div key={entry.id} className="animate-fadeIn" style={{ animationDelay: `${i * 50}ms` }}>
+                    <EntryCard entry={entry} />
+                  </div>
+                ))}
+              </div>
+
+              {hasMore && (
+                <div className="flex flex-col items-center mt-10 gap-3">
+                  <div className="text-sm text-slate-400">
+                    Showing {visibleCount} of {results.length} opportunities
+                  </div>
+                  <button
+                    onClick={() => setVisibleCount((prev) => prev + 12)}
+                    className="group relative inline-flex items-center gap-2 px-8 py-3.5 bg-white text-primary-600 font-semibold rounded-2xl border-2 border-primary-200 hover:border-primary-400 hover:bg-primary-50 transition-all shadow-sm hover:shadow-md"
+                  >
+                    <svg className="w-5 h-5 transition-transform group-hover:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                    Load More
+                  </button>
                 </div>
-              ))}
-            </div>
+              )}
+
+              {!hasMore && results.length > 12 && (
+                <div className="text-center mt-10 text-sm text-slate-400">
+                  Showing all {results.length} opportunities
+                </div>
+              )}
+            </>
           ) : (
             <div className="text-center py-16">
               <div className="text-6xl mb-4">🔍</div>
