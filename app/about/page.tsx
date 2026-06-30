@@ -1,216 +1,165 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "About – OpenScholarFinder",
-  description: "Learn about OpenScholarFinder, our mission, data schema, and how we aggregate scholarships transparently.",
-};
-
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-slate-50">
-      {/* Header */}
-      <div className="bg-gradient-to-br from-primary-600 via-primary-700 to-purple-700">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-          <div className="text-center">
-            <h1 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              About OpenScholarFinder
-            </h1>
-            <p className="text-lg text-white/70 max-w-2xl mx-auto">
-              An open-source scholarship aggregator built for transparency and trust.
+    <main className="max-w-4xl mx-auto px-6 py-12 text-gray-800">
+      <h1 className="text-3xl font-bold mb-2 text-blue-900">About OpenScholarFinder</h1>
+      <p className="text-lg text-gray-500 mb-10 border-b pb-6">
+        A transparent, open-source aggregator of scholarships and funded academic positions for prospective students worldwide.
+      </p>
+
+      {/* Background */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-blue-800 mb-3">Background and Motivation</h2>
+        <p className="text-base leading-relaxed mb-3">
+          The process of identifying scholarship and funded PhD opportunities is disproportionately burdensome
+          for students in developing nations, where institutional guidance is limited and trustworthy aggregation
+          platforms are scarce. While numerous scholarship portals exist globally, their coverage, currency, and
+          relevance to Indonesian or Muslim-majority applicants vary significantly.
+        </p>
+        <p className="text-base leading-relaxed">
+          OpenScholarFinder was initiated to consolidate this landscape into a single, auditable, and ethically
+          curated resource — one that is open to community contribution and grounded in verifiable source attribution.
+        </p>
+      </section>
+
+      {/* Design Principles */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-blue-800 mb-3">Design Principles</h2>
+        <ol className="list-decimal list-inside space-y-3 text-base leading-relaxed">
+          <li>
+            <span className="font-medium">Transparency</span> — All sources are documented with their origin,
+            access mode, and scope. The full data schema is publicly available in the project&apos;s{" "}
+            <code className="bg-gray-100 px-1 rounded text-sm">design.md</code> file.
+          </li>
+          <li>
+            <span className="font-medium">Source Integrity</span> — Priority is given to official institutional
+            portals, government agencies, and accredited universities. Social media curations are classified
+            separately and clearly labeled.
+          </li>
+          <li>
+            <span className="font-medium">Contextual Relevance</span> — Each scholarship entry carries optional
+            contextual flags (<code className="bg-gray-100 px-1 rounded text-sm">indonesia_friendly</code>,{" "}
+            <code className="bg-gray-100 px-1 rounded text-sm">muslim_friendly</code>) to help users filter
+            results based on their applicant profile. These flags are descriptive, not normative.
+          </li>
+          <li>
+            <span className="font-medium">Open Contribution</span> — The codebase and data schema are open for
+            community contribution, subject to quality and accuracy standards defined in the project documentation.
+          </li>
+        </ol>
+      </section>
+
+      {/* Scope */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-blue-800 mb-3">Scope of Coverage</h2>
+        <p className="text-base leading-relaxed mb-3">
+          The platform aggregates information across three study levels — Bachelor (S1), Master (S2), and
+          Doctoral (S3/PhD) — and four funding types:{" "}
+          <span className="font-medium">Scholarship, Fellowship, Studentship,</span> and{" "}
+          <span className="font-medium">Funded Position</span>.
+        </p>
+        <p className="text-base leading-relaxed">
+          Sources are drawn from over 60 global portals, national scholarship agencies, and curated meta-lists,
+          with ongoing expansion targeting a minimum of 100 curated sources across all categories.
+        </p>
+      </section>
+
+      {/* Source Categories */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-blue-800 mb-3">Source Categories</h2>
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm border-collapse border border-gray-200">
+            <thead className="bg-blue-50">
+              <tr>
+                <th className="border border-gray-200 px-4 py-2 text-left font-semibold">Category</th>
+                <th className="border border-gray-200 px-4 py-2 text-left font-semibold">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                ["GLOBAL_SCHOLARSHIPS", "Cross-country, multi-level scholarship portals (e.g., Scholars4Dev, ScholarshipsAds, DAAD)"],
+                ["GLOBAL_PORTAL_PROGRAMS", "Program and PhD/funded position portals (e.g., FindAPhD, MastersPortal, AcademicPositions)"],
+                ["META_LIST", "Curated lists of scholarship websites from LinkedIn, X/Twitter, and Facebook"],
+                ["SOCIAL_GROUP", "PhD and academic community groups on social media platforms"],
+                ["META_GUIDE", "Educational and advisory articles on finding scholarships and funded positions"],
+              ].map(([cat, desc]) => (
+                <tr key={cat} className="odd:bg-white even:bg-gray-50">
+                  <td className="border border-gray-200 px-4 py-2 font-mono text-xs">{cat}</td>
+                  <td className="border border-gray-200 px-4 py-2">{desc}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      {/* Contextual Flags */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-blue-800 mb-3">Contextual Flags</h2>
+        <p className="text-base leading-relaxed mb-4">
+          Two optional boolean flags are applied to each source and entry to assist users in identifying
+          opportunities most relevant to their background:
+        </p>
+        <div className="space-y-4">
+          <div className="bg-yellow-50 border-l-4 border-yellow-400 px-5 py-4 rounded">
+            <p className="font-semibold text-sm mb-1">
+              <code>indonesia_friendly</code>
+            </p>
+            <p className="text-sm leading-relaxed">
+              Set when the host institution is located in Indonesia, when Indonesian nationals are explicitly
+              listed as eligible, or when the source is directly operated by an Indonesian funding body
+              (e.g., LPDP, KNB, AMINEF).
+            </p>
+          </div>
+          <div className="bg-green-50 border-l-4 border-green-400 px-5 py-4 rounded">
+            <p className="font-semibold text-sm mb-1">
+              <code>muslim_friendly</code>
+            </p>
+            <p className="text-sm leading-relaxed">
+              Set conservatively when the host institution is located in a Muslim-majority country and the
+              program is open to international applicants. This flag is intended as a contextual signal only
+              and does not constitute an endorsement of full Sharia compliance.
             </p>
           </div>
         </div>
+      </section>
+
+      {/* Acknowledgements */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-blue-800 mb-3">Acknowledgements</h2>
+        <p className="text-base leading-relaxed">
+          This platform draws its source list from publicly accessible scholarship portals, government agency
+          websites, university scholarship pages, and community-curated meta-lists shared across professional
+          networks. Full attribution is embedded in the{" "}
+          <code className="bg-gray-100 px-1 rounded text-sm">Source</code> schema for each indexed entry.
+        </p>
+      </section>
+
+      {/* Contact */}
+      <section className="mb-10">
+        <h2 className="text-xl font-semibold text-blue-800 mb-3">Contact &amp; Contribution</h2>
+        <p className="text-base leading-relaxed">
+          For academic inquiries, source submissions, or technical contributions, please refer to the project
+          repository at{" "}
+          <a
+            href="https://github.com/fathahnoor/OpenScholarFinder"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline hover:text-blue-800"
+          >
+            github.com/fathahnoor/OpenScholarFinder
+          </a>{" "}
+          or contact the project maintainer through GitHub Issues.
+        </p>
+      </section>
+
+      {/* Footer note */}
+      <div className="border-t pt-6 text-sm text-gray-400">
+        <p>
+          OpenScholarFinder is developed and maintained by{" "}
+          <span className="font-medium text-gray-600">Fat&apos;hah Noor Prawita</span>, Lecturer at the School
+          of Electrical Engineering, Telkom University, Indonesia.
+        </p>
       </div>
-
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
-        {/* Vision */}
-        <section className="bg-white rounded-2xl border border-slate-200/80 p-8 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Our Vision</h2>
-          <div className="prose prose-slate max-w-none">
-            <p className="text-slate-600 leading-relaxed text-lg">
-              OpenScholarFinder provides a single search portal for scholarships and funded positions
-              (Bachelor&apos;s, Master&apos;s, PhD) that is:
-            </p>
-            <ul className="space-y-3 mt-4">
-              <li className="flex items-start gap-3 text-slate-600">
-                <span className="text-emerald-500 mt-1">✓</span>
-                <span><strong className="text-slate-800">Open source</strong> and auditable by anyone</span>
-              </li>
-              <li className="flex items-start gap-3 text-slate-600">
-                <span className="text-emerald-500 mt-1">✓</span>
-                <span><strong className="text-slate-800">Trust-focused</strong> — prioritizing official portals, funding bodies, and universities</span>
-              </li>
-              <li className="flex items-start gap-3 text-slate-600">
-                <span className="text-emerald-500 mt-1">✓</span>
-                <span><strong className="text-slate-800">Inclusive</strong> — supporting students from Indonesia and developing countries</span>
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        {/* How it Works */}
-        <section className="bg-white rounded-2xl border border-slate-200/80 p-8 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">How It Works</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-            {[
-              {
-                step: "1",
-                icon: "🔍",
-                title: "Aggregate",
-                description: "We collect data from 60+ trusted scholarship portals, government agencies, and curated lists worldwide.",
-              },
-              {
-                step: "2",
-                icon: "⚡",
-                title: "Standardize",
-                description: "All entries are normalized to a consistent schema with flags for compatibility (Indonesia-friendly, Muslim-friendly).",
-              },
-              {
-                step: "3",
-                icon: "🎯",
-                title: "Search & Filter",
-                description: "Students can search and filter by level, country, field, funding type, and special flags to find relevant opportunities.",
-              },
-            ].map((item) => (
-              <div key={item.step} className="text-center">
-                <div className="w-16 h-16 rounded-2xl bg-primary-50 flex items-center justify-center text-3xl mx-auto mb-4">
-                  {item.icon}
-                </div>
-                <h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3>
-                <p className="text-sm text-slate-600">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Data Schema */}
-        <section id="data-schema" className="bg-white rounded-2xl border border-slate-200/80 p-8 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">Data Schema</h2>
-          <p className="text-slate-600 mb-6">
-            Our data follows two core schemas: <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm">Source</code> (for portals) and <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm">Entry</code> (for individual scholarships/positions).
-          </p>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {/* Source Schema */}
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-3">Source Schema</h3>
-              <div className="bg-slate-900 rounded-xl p-5 overflow-x-auto">
-                <pre className="text-sm text-slate-300 font-mono whitespace-pre">
-{`{
-  "id": "source_id",
-  "name": "Portal Name",
-  "category": "GLOBAL_SCHOLARSHIPS",
-  "url": "https://...",
-  "description": "...",
-  "supported_levels": ["BACHELOR","MASTER","PHD"],
-  "region_scope": "GLOBAL",
-  "primary_language": "EN",
-  "update_frequency": "DAILY",
-  "flags": {
-    "indonesia_friendly": false,
-    "muslim_friendly": false
-  }
-}`}
-                </pre>
-              </div>
-            </div>
-
-            {/* Entry Schema */}
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-3">Entry Schema</h3>
-              <div className="bg-slate-900 rounded-xl p-5 overflow-x-auto">
-                <pre className="text-sm text-slate-300 font-mono whitespace-pre">
-{`{
-  "id": "entry_id",
-  "source_id": "source_id",
-  "title": "Scholarship Title",
-  "level": ["MASTER"],
-  "funding_type": "SCHOLARSHIP",
-  "host_entity": {
-    "name": "...",
-    "country": "..."
-  },
-  "is_fully_funded": true,
-  "application_deadline": "YYYY-MM-DD",
-  "flags": {
-    "indonesia_friendly": false,
-    "muslim_friendly": false
-  }
-}`}
-                </pre>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Flags */}
-        <section className="bg-white rounded-2xl border border-slate-200/80 p-8 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900 mb-6">Compatibility Flags</h2>
-          <div className="space-y-6">
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-center gap-2">
-                <span className="text-xl">🇮🇩</span> Indonesia Friendly
-              </h3>
-              <p className="text-slate-600 mb-2">
-                A scholarship is flagged as <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm">indonesia_friendly</code> if:
-              </p>
-              <ul className="space-y-1.5 ml-6">
-                <li className="text-sm text-slate-600 list-disc">The host country is Indonesia, or</li>
-                <li className="text-sm text-slate-600 list-disc">Indonesia is listed in eligible nationalities, or</li>
-                <li className="text-sm text-slate-600 list-disc">The source is clearly targeted at Indonesian citizens (LPDP, KNB, AMINEF, etc.)</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold text-slate-900 mb-2 flex items-center gap-2">
-                <span className="text-xl">☪️</span> Muslim Friendly
-              </h3>
-              <p className="text-slate-600 mb-2">
-                A scholarship is flagged as <code className="bg-slate-100 px-1.5 py-0.5 rounded text-sm">muslim_friendly</code> (conservatively) if:
-              </p>
-              <ul className="space-y-1.5 ml-6">
-                <li className="text-sm text-slate-600 list-disc">The host country is a majority-Muslim country (Indonesia, Malaysia, Turkey, etc.), and</li>
-                <li className="text-sm text-slate-600 list-disc">The scholarship is open to international students</li>
-              </ul>
-              <p className="text-sm text-slate-500 mt-2 italic">
-                Note: This flag is a contextual signal, not a guarantee of Sharia compliance.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Sources */}
-        <section id="sources" className="bg-white rounded-2xl border border-slate-200/80 p-8 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Source Guidelines</h2>
-          <p className="text-slate-600 mb-4">
-            We aggregate from multiple categories of sources:
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {[
-              { cat: "GLOBAL_SCHOLARSHIPS", label: "Global Scholarship Portals", desc: "Major portals listing scholarships across countries and levels." },
-              { cat: "GLOBAL_PORTAL_PROGRAMS", label: "Program & Position Portals", desc: "Universities, PhD search engines, and program databases." },
-              { cat: "META_LIST", label: "Curated Lists", desc: "Social media posts and threads aggregating useful links." },
-              { cat: "META_GUIDE", label: "Guides & Resources", desc: "Educational content on finding and applying for funding." },
-            ].map((item) => (
-              <div key={item.cat} className="bg-slate-50 rounded-xl p-4">
-                <h4 className="font-semibold text-slate-800">{item.label}</h4>
-                <p className="text-sm text-slate-600 mt-1">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Tech Stack */}
-        <section className="bg-white rounded-2xl border border-slate-200/80 p-8 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900 mb-4">Tech Stack</h2>
-          <div className="flex flex-wrap gap-3">
-            {["Next.js", "TypeScript", "Tailwind CSS", "React", "JSON Data Layer"].map((tech) => (
-              <span key={tech} className="px-4 py-2 rounded-xl bg-slate-100 text-slate-700 font-medium text-sm">
-                {tech}
-              </span>
-            ))}
-          </div>
-        </section>
-      </div>
-    </div>
+    </main>
   );
 }
