@@ -1,0 +1,818 @@
+[
+  {
+    "id": "entry_001",
+    "source_id": "source_scholars4dev",
+    "source_name": "Scholarships4Dev",
+    "category": "GLOBAL_SCHOLARSHIPS",
+    "title": "Chevening Scholarship 2026/2027 (Fully Funded)",
+    "short_title": "Chevening 2026",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Arrival allowance", "Warm clothing allowance"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "UK Government (FCDO)",
+      "country": "United Kingdom",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "EDUCATION", "LAW", "POLITICS", "ENVIRONMENT", "HEALTH"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.chevening.org/scholarships/",
+    "official_call_url": "https://www.chevening.org/scholarships/",
+    "application_open_date": "2025-09-01",
+    "application_deadline": "2025-11-05",
+    "start_date": "2026-09-01",
+    "requirements_summary": "Must have at least 2 years work experience. Must return to home country for at least 2 years after studies.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 79 }
+    },
+    "selection_criteria_keywords": ["leadership", "networking", "academic_merit", "career_plan"],
+    "is_fully_funded": true,
+    "currency": "GBP",
+    "estimated_yearly_value": 35000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "UK", "LEADERSHIP"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_002",
+    "source_id": "source_daad_global_db",
+    "source_name": "DAAD Scholarship Database",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "DAAD Study Scholarships for Graduates (EPOS)",
+    "short_title": "DAAD EPOS",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Monthly study allowance", "Research allowance"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "DAAD (German Academic Exchange Service)",
+      "country": "Germany",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "ECONOMICS", "ENVIRONMENT", "PUBLIC_HEALTH"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.daad.de/stipdb-redirect/",
+    "official_call_url": "https://www.daad.de/en/study-and-research-in-germany/scholarships/",
+    "application_open_date": "2025-08-01",
+    "application_deadline": "2025-10-15",
+    "start_date": "2026-10-01",
+    "requirements_summary": "For professionals from developing countries with at least 2 years of work experience. Must have relevant bachelor's degree.",
+    "academic_requirements": {
+      "min_gpa": 2.5,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.0, "TOEFL": 80 }
+    },
+    "selection_criteria_keywords": ["professional_experience", "academic_merit", "development_relevance"],
+    "is_fully_funded": true,
+    "currency": "EUR",
+    "estimated_yearly_value": 20000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "GERMANY", "DEVELOPING_COUNTRIES"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_003",
+    "source_id": "source_worldbank",
+    "source_name": "World Bank Scholarships Program",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "Joint Japan/World Bank Graduate Scholarship Program",
+    "short_title": "JJWBGSP",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Economy class air travel", "Settling-in allowance"]
+    },
+    "host_entity": {
+      "type": "INTERNATIONAL_ORGANIZATION",
+      "name": "World Bank Group",
+      "country": "United States",
+      "region": "North America"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ECONOMICS", "EDUCATION", "ENGINEERING", "ENVIRONMENT", "HEALTH", "PUBLIC_POLICY"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.worldbank.org/en/programs/scholarships",
+    "official_call_url": "https://www.worldbank.org/en/programs/scholarships",
+    "application_open_date": "2025-06-15",
+    "application_deadline": "2025-08-31",
+    "start_date": "2026-08-01",
+    "requirements_summary": "Must be a national of a World Bank member developing country. Must have at least 3 years of paid development-related work experience.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 90 }
+    },
+    "selection_criteria_keywords": ["development_experience", "academic_merit", "leadership"],
+    "is_fully_funded": true,
+    "currency": "USD",
+    "estimated_yearly_value": 45000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "DEVELOPING_COUNTRIES", "JAPAN"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_004",
+    "source_id": "source_erasmusplus",
+    "source_name": "Erasmus+",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "Erasmus Mundus Joint Master Degree",
+    "short_title": "EMJMD",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Living costs contribution", "Installation costs"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "European Commission",
+      "country": "Belgium",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "EDUCATION", "ENVIRONMENT", "LAW", "HEALTH", "ARTS"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://erasmus-plus.ec.europa.eu",
+    "official_call_url": "https://erasmus-plus.ec.europa.eu",
+    "application_open_date": "2025-10-01",
+    "application_deadline": "2026-01-15",
+    "start_date": "2026-09-01",
+    "requirements_summary": "Must apply to at least 3 different EMJMD programmes. Students from Programme Countries have different funding rates than Partner Country students.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 90 }
+    },
+    "selection_criteria_keywords": ["academic_merit", "diversity", "motivation"],
+    "is_fully_funded": true,
+    "currency": "EUR",
+    "estimated_yearly_value": 25000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "EUROPE", "MOBILITY"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_005",
+    "source_id": "source_findaphd",
+    "source_name": "FindAPhD",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "PhD Position in Machine Learning for Climate Science – ETH Zurich",
+    "short_title": "PhD ML Climate ETH",
+    "level": ["PHD"],
+    "funding_type": "STUDENTSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Conference travel fund", "Research materials"]
+    },
+    "host_entity": {
+      "type": "UNIVERSITY",
+      "name": "ETH Zurich",
+      "country": "Switzerland",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["COMPUTER_SCIENCE", "ENGINEERING", "ENVIRONMENT"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.findaphd.com",
+    "official_call_url": "https://ethz.ch/en/studies/doctoral-programmes.html",
+    "application_open_date": "2025-12-01",
+    "application_deadline": "2026-02-28",
+    "start_date": "2026-09-01",
+    "requirements_summary": "Strong background in machine learning, programming (Python), and climate science. Master's degree in CS, Physics, or related field.",
+    "academic_requirements": {
+      "min_gpa": 3.5,
+      "required_previous_degree": ["MASTER"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 7.0, "TOEFL": 100 }
+    },
+    "selection_criteria_keywords": ["research_potential", "publications", "programming", "academic_merit"],
+    "is_fully_funded": true,
+    "currency": "CHF",
+    "estimated_yearly_value": 50000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "PHD", "AI", "CLIMATE"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_006",
+    "source_id": "source_lpdp_programs",
+    "source_name": "LPDP Program Beasiswa",
+    "category": "GLOBAL_SCHOLARSHIPS",
+    "title": "Beasiswa LPDP Magister & Doktor 2026",
+    "short_title": "LPDP 2026",
+    "level": ["MASTER", "PHD"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Settling-in allowance", "Book allowance", "Thesis/dissertation grant"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "LPDP (Lembaga Pengelola Dana Pendidikan Indonesia)",
+      "country": "Indonesia",
+      "region": "Southeast Asia"
+    },
+    "eligible_nationalities": ["Indonesia"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "EDUCATION", "HEALTH", "LAW", "ECONOMICS", "ENVIRONMENT", "PUBLIC_POLICY"],
+    "delivery_mode": ["ON_CAMPUS", "ONLINE"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://bantuan.lpdp.kemenkeu.go.id/kb/program-beasiswa-penerima",
+    "official_call_url": "https://lpdp.kemdikbud.go.id",
+    "application_open_date": "2025-11-01",
+    "application_deadline": "2026-01-31",
+    "start_date": "2026-08-01",
+    "requirements_summary": "Warga Negara Indonesia dengan IPK minimal 3.0. Bersedia kembali ke Indonesia setelah studi.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "ID",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.0, "TOEFL": 80 }
+    },
+    "selection_criteria_keywords": ["leadership", "national_service", "academic_merit"],
+    "is_fully_funded": true,
+    "currency": "IDR",
+    "estimated_yearly_value": 500000000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "INDONESIA", "GOVERNMENT"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_007",
+    "source_id": "source_knb",
+    "source_name": "KNB Scholarship",
+    "category": "GLOBAL_SCHOLARSHIPS",
+    "title": "Beasiswa Kemitraan Negara Berkembang (KNB) 2026",
+    "short_title": "KNB 2026",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Settling-in allowance", "Language training", "Book allowance"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "Kementerian Pendidikan Tinggi, Sains, dan Teknologi",
+      "country": "Indonesia",
+      "region": "Southeast Asia"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "EDUCATION", "ECONOMICS", "PUBLIC_POLICY"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://knb.kemdiktisaintek.go.id",
+    "official_call_url": "https://knb.kemdiktisaintek.go.id",
+    "application_open_date": "2025-05-01",
+    "application_deadline": "2025-07-31",
+    "start_date": "2026-01-15",
+    "requirements_summary": "Open to citizens of developing countries. Must have a bachelor's degree and meet GPA requirements.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 5.5, "TOEFL": 60 }
+    },
+    "selection_criteria_keywords": ["academic_merit", "development_potential", "leadership"],
+    "is_fully_funded": true,
+    "currency": "IDR",
+    "estimated_yearly_value": 400000000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "INDONESIA", "DEVELOPING_COUNTRIES"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_008",
+    "source_id": "source_fulbright_global",
+    "source_name": "Fulbright Scholar Program",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "Fulbright Foreign Student Program – Master's",
+    "short_title": "Fulbright Master's",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Book allowance", "Settling-in allowance", "Orientation program"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "U.S. Department of State (Fulbright)",
+      "country": "United States",
+      "region": "North America"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "EDUCATION", "LAW", "ENVIRONMENT", "HEALTH", "ARTS"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.cies.org",
+    "official_call_url": "https://foreign.fulbrightonline.org",
+    "application_open_date": "2025-02-01",
+    "application_deadline": "2025-06-30",
+    "start_date": "2026-08-01",
+    "requirements_summary": "For non-US citizens to study in the US. Must demonstrate English proficiency and leadership potential.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 80 }
+    },
+    "selection_criteria_keywords": ["leadership", "academic_merit", "cultural_exchange", "community_service"],
+    "is_fully_funded": true,
+    "currency": "USD",
+    "estimated_yearly_value": 55000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "USA", "CULTURAL_EXCHANGE"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_009",
+    "source_id": "source_studyportals",
+    "source_name": "Studyportals",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "MSc Scholarship in Computer Science – University of Helsinki",
+    "short_title": "U Helsinki CS MSc",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "NO",
+      "health_insurance": "YES",
+      "other_benefits": ["Library access", "Student services"]
+    },
+    "host_entity": {
+      "type": "UNIVERSITY",
+      "name": "University of Helsinki",
+      "country": "Finland",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["COMPUTER_SCIENCE"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.helsinki.fi/en/admissions-and-education",
+    "official_call_url": "https://www.helsinki.fi/en/admissions-and-education/scholarships",
+    "application_open_date": "2025-12-01",
+    "application_deadline": "2026-01-15",
+    "start_date": "2026-09-01",
+    "requirements_summary": "Outstanding academic record in Computer Science. Must apply for admission to the MSc programme simultaneously.",
+    "academic_requirements": {
+      "min_gpa": 3.5,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 92 }
+    },
+    "selection_criteria_keywords": ["academic_merit", "research_potential"],
+    "is_fully_funded": true,
+    "currency": "EUR",
+    "estimated_yearly_value": 18000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "EUROPE", "CS"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_010",
+    "source_id": "source_commonwealth",
+    "source_name": "Commonwealth Scholarship Commission",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "Commonwealth PhD Scholarships 2026",
+    "short_title": "Commonwealth PhD",
+    "level": ["PHD"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Warm clothing allowance", "Thesis grant", "Study travel grant"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "UK Foreign, Commonwealth & Development Office",
+      "country": "United Kingdom",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "EDUCATION", "ENVIRONMENT", "HEALTH", "PUBLIC_POLICY"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.cscuk.org.uk",
+    "official_call_url": "https://www.cscuk.org.uk/funded-scholarship-programmes/commonwealth-phd-scholarships",
+    "application_open_date": "2025-09-01",
+    "application_deadline": "2025-12-01",
+    "start_date": "2026-10-01",
+    "requirements_summary": "For citizens of eligible Commonwealth countries. Must demonstrate potential for leadership and impact in home country.",
+    "academic_requirements": {
+      "min_gpa": 3.5,
+      "required_previous_degree": ["MASTER"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 90 }
+    },
+    "selection_criteria_keywords": ["development_impact", "leadership", "research_potential"],
+    "is_fully_funded": true,
+    "currency": "GBP",
+    "estimated_yearly_value": 32000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "UK", "PHD", "COMMONWEALTH"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_011",
+    "source_id": "source_aminef_fulbright_master",
+    "source_name": "AMINEF Fulbright Master's",
+    "category": "GLOBAL_SCHOLARSHIPS",
+    "title": "Fulbright Master's Degree Scholarship for Indonesians",
+    "short_title": "AMINEF Fulbright",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Book allowance", "Settling-in allowance", "Pre-academic training"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "American Indonesian Exchange Foundation (AMINEF)",
+      "country": "United States",
+      "region": "North America"
+    },
+    "eligible_nationalities": ["Indonesia"],
+    "eligible_fields": ["ENGINEERING", "COMPUTER_SCIENCE", "EDUCATION", "ENVIRONMENT", "HEALTH", "PUBLIC_POLICY"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.aminef.or.id/grants-for-indonesians/fulbright-programs/scholarship/fulbright-masters-degree-scholarship/",
+    "official_call_url": "https://www.aminef.or.id",
+    "application_open_date": "2025-03-01",
+    "application_deadline": "2025-05-31",
+    "start_date": "2026-08-01",
+    "requirements_summary": "WNI, minimal 3 tahun pengalaman kerja, IPK minimal 3.0. Harus kembali ke Indonesia setelah studi.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["TOEFL"],
+      "min_scores": { "TOEFL": 550 }
+    },
+    "selection_criteria_keywords": ["leadership", "community_service", "academic_merit"],
+    "is_fully_funded": true,
+    "currency": "USD",
+    "estimated_yearly_value": 50000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "INDONESIA", "USA"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_012",
+    "source_id": "source_academicpositions",
+    "source_name": "AcademicPositions",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "PhD Position in Bioinformatics – Karolinska Institutet",
+    "short_title": "PhD Bioinformatics Karolinska",
+    "level": ["PHD"],
+    "funding_type": "STUDENTSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "NO",
+      "health_insurance": "YES",
+      "other_benefits": ["Swedish social benefits", "Vacation days"]
+    },
+    "host_entity": {
+      "type": "UNIVERSITY",
+      "name": "Karolinska Institutet",
+      "country": "Sweden",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["COMPUTER_SCIENCE", "ENGINEERING", "HEALTH"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://academicpositions.com",
+    "official_call_url": "https://ki.se/en/education/phd-education",
+    "application_open_date": "2025-10-01",
+    "application_deadline": "2025-12-15",
+    "start_date": "2026-06-01",
+    "requirements_summary": "Master's degree in Bioinformatics, Computer Science, or related field. Experience with genomics data analysis.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["MASTER"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 90 }
+    },
+    "selection_criteria_keywords": ["research_potential", "publications", "technical_skills"],
+    "is_fully_funded": true,
+    "currency": "SEK",
+    "estimated_yearly_value": 350000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "PHD", "BIOINFORMATICS", "SWEDEN"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_013",
+    "source_id": "source_scholarshiproar",
+    "source_name": "ScholarshipRoar",
+    "category": "GLOBAL_SCHOLARSHIPS",
+    "title": "AUN/SEAR-PUP International Scholarships 2026",
+    "short_title": "AUN/SEAR-PUP",
+    "level": ["BACHELOR", "MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "NO",
+      "health_insurance": "YES",
+      "other_benefits": ["Accommodation", "Living allowance"]
+    },
+    "host_entity": {
+      "type": "UNIVERSITY",
+      "name": "Prince of Songkla University",
+      "country": "Thailand",
+      "region": "Southeast Asia"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "EDUCATION", "HEALTH"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://scholarshiproar.com",
+    "official_call_url": "https://www.psu.ac.th/en",
+    "application_open_date": "2025-11-01",
+    "application_deadline": "2026-02-28",
+    "start_date": "2026-08-15",
+    "requirements_summary": "For ASEAN and developing country students. Must demonstrate academic excellence.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["HIGH_SCHOOL"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 5.5, "TOEFL": 61 }
+    },
+    "selection_criteria_keywords": ["academic_merit", "ASEAN", "community"],
+    "is_fully_funded": true,
+    "currency": "THB",
+    "estimated_yearly_value": 300000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "ASEAN", "SOUTHEAST_ASIA"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_014",
+    "source_id": "source_koica",
+    "source_name": "KOICA Scholarship Program",
+    "category": "GLOBAL_SCHOLARSHIPS",
+    "title": "KOICA Degree Program Scholarship 2026",
+    "short_title": "KOICA Degree",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "YES",
+      "health_insurance": "YES",
+      "other_benefits": ["Korean language training", "Settling-in allowance", "Completion grant"]
+    },
+    "host_entity": {
+      "type": "GOVERNMENT",
+      "name": "Korea International Cooperation Agency (KOICA)",
+      "country": "South Korea",
+      "region": "East Asia"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "EDUCATION", "HEALTH", "PUBLIC_POLICY", "ECONOMICS"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.scholars4dev.com",
+    "official_call_url": "https://www.koica.go.kr",
+    "application_open_date": "2025-09-01",
+    "application_deadline": "2025-12-31",
+    "start_date": "2026-09-01",
+    "requirements_summary": "For citizens of KOICA partner developing countries. Must be under 40 years old. Government nomination required.",
+    "academic_requirements": {
+      "min_gpa": 2.8,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["TOPIK"],
+      "min_scores": {}
+    },
+    "selection_criteria_keywords": ["government_nomination", "development_experience", "leadership"],
+    "is_fully_funded": true,
+    "currency": "KRW",
+    "estimated_yearly_value": 20000000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "KOREA", "DEVELOPING_COUNTRIES"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_015",
+    "source_id": "source_mastersportal",
+    "source_name": "MastersPortal",
+    "category": "GLOBAL_PORTAL_PROGRAMS",
+    "title": "Turing Scholarships – University of Manchester",
+    "short_title": "Turing Manchester",
+    "level": ["MASTER"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "NO",
+      "health_insurance": "YES",
+      "other_benefits": ["Living costs", "Study materials"]
+    },
+    "host_entity": {
+      "type": "UNIVERSITY",
+      "name": "University of Manchester",
+      "country": "United Kingdom",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["COMPUTER_SCIENCE", "ENGINEERING", "MATHEMATICS"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.mastersportal.com/scholarships/",
+    "official_call_url": "https://www.manchester.ac.uk/study/masters/scholarships/",
+    "application_open_date": "2025-10-01",
+    "application_deadline": "2026-03-31",
+    "start_date": "2026-09-01",
+    "requirements_summary": "Outstanding academic record in Computer Science or Mathematics. Must hold an offer for an eligible MSc programme.",
+    "academic_requirements": {
+      "min_gpa": 3.5,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 7.0, "TOEFL": 100 }
+    },
+    "selection_criteria_keywords": ["academic_merit", "technical_skills", "research_potential"],
+    "is_fully_funded": true,
+    "currency": "GBP",
+    "estimated_yearly_value": 30000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "UK", "CS", "MATHEMATICS"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  },
+  {
+    "id": "entry_016",
+    "source_id": "source_iefa",
+    "source_name": "IEFA",
+    "category": "GLOBAL_SCHOLARSHIPS",
+    "title": "Aga Khan Foundation International Scholarship Programme",
+    "short_title": "AKF ISP",
+    "level": ["MASTER", "PHD"],
+    "funding_type": "SCHOLARSHIP",
+    "funding_coverage": {
+      "tuition": "FULL",
+      "stipend": "YES",
+      "travel": "NO",
+      "health_insurance": "NO",
+      "other_benefits": ["Living allowance"]
+    },
+    "host_entity": {
+      "type": "FOUNDATION",
+      "name": "Aga Khan Foundation",
+      "country": "Switzerland",
+      "region": "Europe"
+    },
+    "eligible_nationalities": ["GLOBAL"],
+    "eligible_fields": ["ENGINEERING", "EDUCATION", "HEALTH", "PUBLIC_POLICY", "ECONOMICS"],
+    "delivery_mode": ["ON_CAMPUS"],
+    "attendance_mode": ["FULL_TIME"],
+    "application_url": "https://www.iefa.org",
+    "official_call_url": "https://www.akdn/our-agencies/aga-khan-foundation/what-we-do/education",
+    "application_open_date": "2025-10-01",
+    "application_deadline": "2026-03-31",
+    "start_date": "2026-09-01",
+    "requirements_summary": "Half grant, half loan. For students from developing countries. Must demonstrate financial need.",
+    "academic_requirements": {
+      "min_gpa": 3.0,
+      "required_previous_degree": ["BACHELOR"]
+    },
+    "language_requirements": {
+      "primary_language": "EN",
+      "accepted_tests": ["IELTS", "TOEFL"],
+      "min_scores": { "IELTS": 6.5, "TOEFL": 80 }
+    },
+    "selection_criteria_keywords": ["financial_need", "academic_merit", "community_service"],
+    "is_fully_funded": true,
+    "currency": "CHF",
+    "estimated_yearly_value": 30000,
+    "recurrence_pattern": "ANNUAL",
+    "tags": ["FULLY_FUNDED", "DEVELOPING_COUNTRIES", "GRANT_LOAN"],
+    "flags": { "indonesia_friendly": true, "muslim_friendly": false },
+    "last_checked": "2026-06-28",
+    "status": "OPEN"
+  }
+]
