@@ -93,17 +93,3 @@ The platform includes dedicated entries for national scholarship agencies releva
 Contributions are welcome. Please refer to [`design.md`](./design.md) for the canonical data schema before submitting new sources or entries. All pull requests adding sources should include a completed `Source` JSON object with accurate `flags`, `region_scope`, and `supported_levels` fields.
 
 Submission guidelines and a contribution template will be provided in a subsequent release.
-
----
-
-## License
-
-This project is open source. License details will be specified in a forthcoming `LICENSE` file.
-
----
-
-## Author
-
-**Fat'hah Noor Prawita**  
-Lecturer, School of Electrical Engineering — Telkom University, Indonesia  
-[github.com/fathahnoor](https://github.com/fathahnoor)
